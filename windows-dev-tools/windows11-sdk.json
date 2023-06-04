@@ -1,0 +1,14 @@
+{
+  "version": "10.0.22621.1778",
+  "homepage":"https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
+  "url": "https://go.microsoft.com/fwlink/?linkid=2237387#/winsdksetup.exe",
+  "extract_dir":"windows-sdk",
+  "installer":{
+    "args" : ["/quiet"],
+    "keep":"true"
+  },
+  "uninstaller":{
+    "file" : "winsdksetup.exe",
+    "args" : ["/uninstall"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "17.0",
+  "homepage":"https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2022&preserve-view=true#desktop-development-with-c",
+  "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+  "extract_dir": "vs-build-tools",
+  "installer": {
+    "args": ["--add","Microsoft.VisualStudio.Workload.VCTools","--quiet", "--wait","--norestart"],
+    "keep": "true"
+  },
+  "uninstaller": {
+    "file": "vs_BuildTools.exe",
+    "args": ["--remove","Microsoft.VisualStudio.Workload.VCTools","--quiet" ,"--wait" ,"--norestart"
+    ]
+  }
+}
