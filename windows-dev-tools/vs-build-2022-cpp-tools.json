@@ -4,7 +4,7 @@
   "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
   "extract_dir": "vs-build-tools",
   "installer": {
-    "args": ["--add","Microsoft.VisualStudio.Workload.VCTools","--quiet", "--wait","--norestart"],
+    "args": ["--add","Microsoft.VisualStudio.Workload.VCTools;includeRecommended ","--quiet", "--wait","--norestart"],
     "keep": "true"
   },
   "uninstaller": {
